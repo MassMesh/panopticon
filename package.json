@@ -1,0 +1,23 @@
+{
+  "name": "panopticon",
+  "version": "1.0.0",
+  "description": "A controller for openwrt devices.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephen304/panopticon.git"
+  },
+  "keywords": [
+    "openwrt",
+    "controller"
+  ],
+  "author": "Stephen Smith <stephen304@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephen304/panopticon/issues"
+  },
+  "homepage": "https://github.com/stephen304/panopticon#readme"
+}
