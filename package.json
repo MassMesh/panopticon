@@ -4,7 +4,7 @@
   "description": "A controller for openwrt devices.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,14 @@
   "bugs": {
     "url": "https://github.com/stephen304/panopticon/issues"
   },
-  "homepage": "https://github.com/stephen304/panopticon#readme"
+  "homepage": "https://github.com/stephen304/panopticon#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "node-sass-middleware": "0.11.0",
+    "pug": "2.0.0-beta11"
+  }
 }
